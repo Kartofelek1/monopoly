@@ -5,7 +5,7 @@ import Board from './components/Board';
 import PlayerDashboard from './components/PlayerDashboard';
 import Chat from './components/Chat';
 
-const socket = io('https://consistent-jokes-agreement-briefing.trycloudflare.com');
+const socket = io('https://monopoly-fcqp.onrender.com');
 
 function App() {
   const [gameState, setGameState] = useState(null);
